@@ -1,0 +1,43 @@
+#jass {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.jass {
+  &__title {
+    margin-left: 350px;
+    margin-top: 200px;
+    color: #0b132a;
+    width: 470px;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+  }
+  &__p {
+    color: #4f5665;
+    text-align: center;
+    margin-left: -30px;
+    width: 550px;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  &__pic {
+    margin-top: 150px;
+    margin-left: 100px;
+    width: 150vh;
+  }
+  &__icon{
+    position: static;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: 100px;
+    height: 70px;
+  }
+}

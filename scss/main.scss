@@ -1,0 +1,42 @@
+@import'./var';
+@import'./mixin';
+@import'./font';
+
+@import'./component/header';
+@import'./component/hero';
+@import'./component/hero2';
+@import'./component/desk';
+@import'./component/bass';
+@import'./component/jass';
+@import'./component/fass';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol,li{
+    list-style: none;
+}
+button{
+    border: none;
+    background: transparent;
+}
+input{
+    outline: none;
+    border: none;
+    background: transparent;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+body {
+    font-family: Rubik;
+}
+

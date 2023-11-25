@@ -1,0 +1,107 @@
+#bass {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bass {
+  &__title {
+    margin-top: 200px;
+    color: #0b132a;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+  }
+  &__p {
+    color: #4f5665;
+    margin-top: 20px;
+    margin-left: 300px;
+    width: 555px;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  &__pic {
+    padding: 79px 92px;
+    margin-top: 45px;
+    width: 330px;
+    height: 760px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    background: #fff;
+  }
+  p{
+    width: 300px;
+  }
+  p::before {
+    content: "";
+    position: absolute;
+    margin-left: -20px;
+    background: url(../../img/galo.svg) no-repeat center/cover;
+    width: 24px;
+    height: 24px;
+  }
+  &__pic2 {
+    position: absolute;
+    margin-left: 420px;
+    bottom: -1932px;
+    padding: 79px 92px;
+    margin-top: 60px;
+    width: 330px;
+    height: 760px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    background: #fff;
+  }
+  &__pic3 {
+    position: absolute;
+    margin-left: 850px;
+    bottom: -1932px;
+    padding: 79px 92px;
+    margin-top: 60px;
+    width: 330px;
+    height: 760px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    background: #fff;
+  }
+  &__box1 {
+    color: #0b132a;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+  }
+  &__sub {
+    color: #4f5665;
+    margin-top: 30px;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  &__h2 {
+    color: #0b132a;
+    margin-top: 100px;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+  &__btn {
+    margin-left: -20px;
+    margin-top: 20px;
+    color: #f53838;
+    width: 177.876px;
+    height: 45px;
+    border-radius: 50px;
+    border: 2px solid #f53838;
+  }
+}

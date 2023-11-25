@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.fass {
+  &__h {
+    margin-top: 100px;
+    margin-left: 350px;
+    width: 500px;
+    color: #0b132a;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+  }
+  &__p {
+    width: 550px;
+    margin-top: 20px;
+    margin-left: 330px;
+    color: #4f5665;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  
+}

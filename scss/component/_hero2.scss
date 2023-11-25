@@ -1,0 +1,18 @@
+#hero2 {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.hero2 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+  &__icon {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+  }
+  &__vec{
+    padding: 80px;
+  }
+}
